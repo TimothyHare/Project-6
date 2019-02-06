@@ -1,0 +1,17 @@
+{
+  "name": "project-6",
+  "version": "0.0.1",
+  "description": "I created a portfolio of my other project using Node,Express, and Pug. Setting up a server,Handling requests, and working with server-side Javascript",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tim Hare",
+  "license": "ISC"
+}
