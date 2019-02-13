@@ -4,9 +4,12 @@
   "description": "I created a portfolio of my other project using Node,Express, and Pug. Setting up a server,Handling requests, and working with server-side Javascript",
   "main": "app.js",
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
     "express": "^4.16.4",
     "nodemon": "^1.18.9",
-    "pug": "^2.0.3"
+    "pug": "^2.0.3",
+    "routes": "^2.1.0"
   },
   "devDependencies": {},
   "scripts": {
