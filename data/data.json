@@ -1,0 +1,50 @@
+{
+
+  "projects": [
+    {
+      "id": "0",
+            "project_name": "A random quote generator",
+            "description": "This is a project that displays a random quote each time the button is clicked",
+            "technologies": ["HTML", "CSS", "JAVASCRIPT"],
+            "live_link": "https://timothyhare.github.io/timHare-project-1/" ,
+            "github_link": "https://github.com/TimothyHare/timHare-project-1",
+            "image_urls": ["images/project-0-main-pic.png", "../static/images/project-0-landscape-pic-1.png", "../static/images/project-0-landscape-pic-2.png", "../static/images/project-0-landscape-pic-3.png"]
+    },
+    {
+          "id": "1",
+          "project_name": "List Pagination and Filtering",
+          "description": "This is website that shows 10 students per page",
+          "technologies": ["HTML", "CSS", "JAVASCRIPT"],
+          "live_link": "https://timothyhare.github.io/Project-2/",
+          "github_link": "https://github.com/TimothyHare/Project-2",
+          "image_urls": ["images/project-1-main-pic.png", "../static/images/project-1-landscape-pic-1.png", "../static/images/project-1-landscape-pic-2.png", "../static/images/project-1-landscape-pic-3.png"]
+      },
+      {
+          "id": "2",
+          "project_name": "Interactive Form",
+          "description": "This website is an interactive form that takes user input and validates them",
+          "technologies": ["HTML", "CSS", "JAVASCRIPT", "JQUERY"],
+          "live_link": "https://timothyhare.github.io/Project-3/",
+          "github_link": "https://github.com/TimothyHare/Project-3",
+          "image_urls": ["images/project-2-main-pic.png", "../static/images/project-2-landscape-pic-1.png", "../static/images/project-2-landscape-pic-2.png", "../static/images/project-2-landscape-pic-3.png"]
+      },
+      {
+          "id": "3",
+          "project_name": "OOP Game Show App",
+          "description": "Use your keyboard. This is a phrase guessing game.I used Object Oriented Programming concepts for this project",
+          "technologies": ["HTML", "CSS", "JAVASCRIPT, JQUERY"],
+          "live_link": "https://timothyhare.github.io/Project-4/",
+          "github_link": "https://github.com/TimothyHare/Project-4",
+          "image_urls": ["images/project-3-main-pic.png", "../static/images/project-3-landscape-pic-1.png", "../static/images/project-3-landscape-pic-2.png", "../static/images/project-3-landscape-pic-3.png"]
+      },
+      {
+          "id": "4",
+          "project_name": "Public API Requests",
+          "description": "This project requests data to an API in order to display information of employees for a fictional company",
+          "technologies": ["https://randomuser.me/", "HTML", "CSS", "JAVASCRIPT, JQUERY"],
+          "live_link": "https://timothyhare.github.io/Project-5/",
+          "github_link": "https://github.com/TimothyHare/Project-5",
+          "image_urls": ["images/project-4-main-pic.png", "../static/images/project-4-landscape-pic-1.png", "../static/images/project-4-landscape-pic-2.png", "../static/images/project-4-landscape-pic-3.png"]
+      }
+  ]
+}

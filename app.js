@@ -7,19 +7,29 @@ const cookieParser = require("cookie-parser");
 const app = express();
 
 app.use(bodyParser.urlencoded({extended:false}));
- app.use(cookieParser());
 
-app.set("view engine", "pug")
+app.use(cookieParser());
 
-app.get("/", (req, res) => {
-  res.render("index");
+app.use('/static',express.static('public'));
+
+app.set("view engine", "pug");
+
+const routes = require("./routes/index.js");
+
+app.use(routes);
+
+app.use((req, res, next) => {
+  const error = new Error ("Not Found");
+  error.status = 404;
+  next(error);
 });
 
-app.get("/hello", (req, res) => {
-  res.send("<h1>Hello, JavaScript Developer!</h1>");
+app.use((error,req, res, next) => {
+  res.local.error = error;
+  res.render("error")
 });
 
 
 app.listen(3000, () => {
-  console.log("The application is running on localhost:3000!")
+  console.log("App.listen works, The application is running on localhost:3000!")
 });
