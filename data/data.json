@@ -40,7 +40,7 @@
       {
           "id": "4",
           "project_name": "Public API Requests",
-          "description": "This project requests data to an API in order to display information of employees for a fictional company",
+          "description": "This project requests data from an API in order to display information of employees for a fictional company",
           "technologies": ["https://randomuser.me/", "HTML", "CSS", "JAVASCRIPT, JQUERY"],
           "live_link": "https://timothyhare.github.io/Project-5/",
           "github_link": "https://github.com/TimothyHare/Project-5",

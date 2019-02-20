@@ -1,9 +1,10 @@
 //-this is my route my route file
-
+ 
 //-- use require method for express module
 const express = require('express');
 //-require Json file data
 const data = require('../data/data.json')
+console.log(data)
 //-Set Routes, use router constructor to create a  router
 const router = express.Router();
 //-redirct route to index
