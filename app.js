@@ -27,6 +27,7 @@ app.use((req, res, next) => {
 app.use((error, req, res, next) => {
   res.locals.error = error;
   res.render("error")
+  console.log("Oops, there seems to be an error")
 });
 
 
